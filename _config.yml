@@ -2,8 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+author: the Task Group on the Integration of Remote Sensing with In-situ Monitoring for African Inland Waters
+copyright: "2023"  # Copyright year to be placed in the footer
+# logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
