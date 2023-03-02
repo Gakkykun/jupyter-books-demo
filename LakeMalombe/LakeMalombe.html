@@ -50,9 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Overview" href="overview.html" />
+    <link rel="next" title="Figure 2" href="figure2.html" />
     <link rel="prev" title="Welcome to our Jupyter Book" href="../intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -120,11 +122,6 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="overview.html">
-     Overview
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="figure2.html">
      Figure 2
     </a>
@@ -156,11 +153,6 @@ const thebe_selector_output = ".output, .cell_output"
    </i>
   </label>
   <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../LakeKyoga/overview.html">
-     Overview
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../LakeKyoga/figure1.html">
      Figure 1
@@ -358,12 +350,56 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview-introduction">
+   Overview/Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-2-ndci-calibrationvalidation-lake-malombe">
+   Figure 2: NDCI-calibration–validation-lake-Malombe.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-3-monthly-lake-malombe-seasonal-pp-in-2019">
+   Figure 3: Monthly Lake Malombe seasonal PP in 2019
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-4-chl-a-time-series-of-lake-malombe">
+   Figure 4: Chl-a time series of Lake Malombe.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-5-the-fitted-double-logistic-model-solid-line-for-chl-a-time-series-data-black-points-upper-and-the-satellite-derived-precipitation-data-lower">
+   Figure 5: The fitted double-logistic model (solid line) for chl-a time series data (black points) (upper) and the satellite-derived precipitation data (lower).
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -375,6 +411,39 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview-introduction">
+   Overview/Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-2-ndci-calibrationvalidation-lake-malombe">
+   Figure 2: NDCI-calibration–validation-lake-Malombe.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-3-monthly-lake-malombe-seasonal-pp-in-2019">
+   Figure 3: Monthly Lake Malombe seasonal PP in 2019
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-4-chl-a-time-series-of-lake-malombe">
+   Figure 4: Chl-a time series of Lake Malombe.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#figure-5-the-fitted-double-logistic-model-solid-line-for-chl-a-time-series-data-black-points-upper-and-the-satellite-derived-precipitation-data-lower">
+   Figure 5: The fitted double-logistic model (solid line) for chl-a time series data (black points) (upper) and the satellite-derived precipitation data (lower).
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -384,15 +453,30 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="lake-malombe-study">
 <h1>Lake Malombe Study<a class="headerlink" href="#lake-malombe-study" title="Permalink to this headline">#</a></h1>
-<p>This is some sample text.</p>
+<section id="overview-introduction">
+<h2>Overview/Introduction<a class="headerlink" href="#overview-introduction" title="Permalink to this headline">#</a></h2>
+<p>In this study, we estimated the trophic status of Lake Malombe in Malawi-a lake likely to be
+affected by eutrophication and algal bloom. We integrated in situ data with the Sentinel-2 MSI algorithm—an algorithm with two bands at the central wavelength of 665 nm or 705 nm and relatively narrow spectral bandwidth (31 nm or 15/16 nm), which corresponds to a strong absorption feature in the red and reflectance peak of chl-a (Page et al. 2018) to estimate spatial and temporal dynamics of chl-a in Lake Malombe.</p>
+</section>
+<section id="figure-2-ndci-calibrationvalidation-lake-malombe">
+<h2>Figure 2: NDCI-calibration–validation-lake-Malombe.<a class="headerlink" href="#figure-2-ndci-calibrationvalidation-lake-malombe" title="Permalink to this headline">#</a></h2>
+<p>(a) calibration (N = 10) and (b) validation (N = 19); the chl-a concentration in the east point for July was not available due to cloud coverage). The calibration curve was: <span class="math notranslate nohighlight">\(Cℎl-a = 431.98 NDCI^2 + 9.547 NDCI + 104\)</span> (<span class="math notranslate nohighlight">\(R^2\)</span> = 0.54). Based on the NDCI algorithms for Lake Malombe, predicted chl-a concentrations were estimated; the RMSE for the validation datasets was 2.88 <span class="math notranslate nohighlight">\(mg/m^3\)</span>. The dashed line represents the 1:1 line.</p>
+</section>
+<section id="figure-3-monthly-lake-malombe-seasonal-pp-in-2019">
+<h2>Figure 3: Monthly Lake Malombe seasonal PP in 2019<a class="headerlink" href="#figure-3-monthly-lake-malombe-seasonal-pp-in-2019" title="Permalink to this headline">#</a></h2>
+<p>The established NDCI algorithm was applied to all of the pixels corresponding to the water area, which was delineated using a technique proposed by Donchyts et al. (2016). Python libraries including geemap and cartopy were used for image productions. Images available during a specific month were composited, and mean Chl-a values were calculated for all of the water area pixels. Lighter green colors indicate a higher Chl-a concentration, while darker green colors indicate a lower Chl-a concentration. A color map barrage from 0 to 20 <span class="math notranslate nohighlight">\(mg/m^3\)</span></p>
+</section>
+<section id="figure-4-chl-a-time-series-of-lake-malombe">
+<h2>Figure 4: Chl-a time series of Lake Malombe.<a class="headerlink" href="#figure-4-chl-a-time-series-of-lake-malombe" title="Permalink to this headline">#</a></h2>
+<p>Chl-a time series of Lake Malombe covering a time period from February 28, 2019,
+to October 31, 2019. The solid lines indicate satellite-derived data, while circle plots do measured data</p>
+</section>
+<section id="figure-5-the-fitted-double-logistic-model-solid-line-for-chl-a-time-series-data-black-points-upper-and-the-satellite-derived-precipitation-data-lower">
+<h2>Figure 5: The fitted double-logistic model (solid line) for chl-a time series data (black points) (upper) and the satellite-derived precipitation data (lower).<a class="headerlink" href="#figure-5-the-fitted-double-logistic-model-solid-line-for-chl-a-time-series-data-black-points-upper-and-the-satellite-derived-precipitation-data-lower" title="Permalink to this headline">#</a></h2>
+<p>The satellite-derived water and land surface temperature data
+(middle), and precipitation data (bottom), covering the entire year starting from January to December in 2019. The central point of the lake (14.642°S, 35.257°E) and a location near the west shoreline (14.643°S, 35.163°E) were selected as monitoring points for MODIS imagery. Two dashed lines indicate the EOS and SOS, respectively.</p>
+</section>
 <div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="figure2.html">Figure 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="figure3.html">Figure 3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="figure4.html">Figure 4</a></li>
-<li class="toctree-l1"><a class="reference internal" href="figure5.html">Figure 5</a></li>
-</ul>
 </div>
 </section>
 
@@ -430,10 +514,10 @@ title="Print to PDF"
             <p class="prev-next-title">Welcome to our Jupyter Book</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="overview.html" title="next page">
+    <a class='right-next' id="next-link" href="figure2.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Overview</p>
+        <p class="prev-next-title">Figure 2</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -444,7 +528,7 @@ title="Print to PDF"
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By The Task Group on the Integration of Remote Sensing with In-situ Monitoring for African Inland Waters<br/>
+    By the Task Group on the Integration of Remote Sensing with In-situ Monitoring for African Inland Waters<br/>
   
       &copy; Copyright 2023.<br/>
 </p>
