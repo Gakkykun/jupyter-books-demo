@@ -6,14 +6,12 @@ root: intro
 chapters:
 - file: LakeMalombe/LakeMalombe.md
   sections:
-    - file: LakeMalombe/overview.md
     - file: LakeMalombe/figure2.md
     - file: LakeMalombe/figure3.md
     - file: LakeMalombe/figure4.md
     - file: LakeMalombe/figure5.md
 - file: LakeKyoga/LakeKyoga.md
   sections:
-    - file: LakeKyoga/overview.md
     - file: LakeKyoga/figure1.md
     - file: LakeKyoga/figure2.md
     - file: LakeKyoga/figure3.md
