@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: the Task Group on the Integration of Remote Sensing with In-situ Monitoring for African Inland Waters
+title: African Inland Waters Research Network Website
+author: African Inland Waters Research Network (AIWaReN)
 copyright: "2023"  # Copyright year to be placed in the footer
 # logo: logo.png
 

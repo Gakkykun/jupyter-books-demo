@@ -3,21 +3,64 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: LakeMalombe/LakeMalombe.md
-  sections:
-    - file: LakeMalombe/figure2.md
-    - file: LakeMalombe/figure3.md
-    - file: LakeMalombe/figure4.md
-    - file: LakeMalombe/figure5.md
-- file: LakeKyoga/LakeKyoga.md
-  sections:
-    - file: LakeKyoga/figure1.md
-    - file: LakeKyoga/figure2.md
-    - file: LakeKyoga/figure3.md
-    - file: LakeKyoga/figure4.md
-    - file: LakeKyoga/figure5.md
-    - file: LakeKyoga/figure6.md
-    - file: LakeKyoga/figure7.md
-    - file: LakeKyoga/figure8.md
+parts:
+- caption: About Us
+  numbered: false
+  chapters:
+  - file: AboutUs/vision.md
+  - file: AboutUs/report.md    
+- caption: Research
+  numbered: false
+  chapters:
+  - file: Research/ResearchTheme.md
+  - file: Research/Projects.md
+- caption: Knowledge
+  numbered: false
+  chapters:
+  - file: Knowledge/publication.md
+  - file: Knowledge/dataAndTools.md
+    sections:
+    - file: Knowledge/DataAndTools/LakeMalombe.md 
+    - file: Knowledge/DataAndTools/LakeKyoga.md
+- caption: Events
+  numbered: false
+  chapters:
+  - file: Events/seminar.md
+
+# chapters:
+# - file: AboutUs/AboutUs.md
+#   sections:
+#     - file: AboutUs/vision.md
+#     - file: AboutUs/report.md
+# - file: Research/Research.md
+#   sections:
+#     - file: Research/ResearchTheme.md
+#     - file: Research/Projects.md
+# - file: Knowledge/Knowledge.md
+#   sections:
+#     - file: Knowledge/publication.md
+#     - file: Knowledge/dataAndTools.md
+# - file: Events/Events.md
+#   sections:
+#     - file: Events/seminar.md
+
+# - file: LakeMalombe/LakeMalombe.md
+#   sections:
+#     - file: LakeMalombe/figure2.md
+#     - file: LakeMalombe/figure3.md
+#     - file: LakeMalombe/figure4.md
+#     - file: LakeMalombe/figure5.md
+# - file: LakeKyoga/LakeKyoga.md
+#   sections:
+#     - file: LakeKyoga/figure1.md
+#     - file: LakeKyoga/figure2.md
+#     - file: LakeKyoga/figure3.md
+#     - file: LakeKyoga/figure4.md
+#     - file: LakeKyoga/figure5.md
+#     - file: LakeKyoga/figure6.md
+#     - file: LakeKyoga/figure7.md
+#     - file: LakeKyoga/figure8.md
+
+
+
 
