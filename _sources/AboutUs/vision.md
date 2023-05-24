@@ -33,3 +33,7 @@ Establish an expert collaborative network of cutting-edge scientists, dedicated 
 5. Source for funding through project proposal, and concept note writing, lobbying and development of training programs to implement shared activities.
 6. Coalescing of government, academic and private-sector institutions for effective resource mobilization, training, and knowledge sharing.
 7. Develop and pioneer application of effective freshwater and wastewater monitoring and management strategies.
+
+
+
+### Strageties
