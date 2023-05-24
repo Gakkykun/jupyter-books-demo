@@ -1,9 +1,5 @@
 # Lake Malombe Study
 
-## Overview/Introduction
-In this study, we estimated the trophic status of Lake Malombe in Malawi-a lake likely to be
-affected by eutrophication and algal bloom. We integrated in situ data with the Sentinel-2 MSI algorithm—an algorithm with two bands at the central wavelength of 665 nm or 705 nm and relatively narrow spectral bandwidth (31 nm or 15/16 nm), which corresponds to a strong absorption feature in the red and reflectance peak of chl-a (Page et al. 2018) to estimate spatial and temporal dynamics of chl-a in Lake Malombe.
-
 ## Figure 2: NDCI-calibration–validation-lake-Malombe.
 (a) calibration (N = 10) and (b) validation (N = 19); the chl-a concentration in the east point for July was not available due to cloud coverage). The calibration curve was: $Cℎl-a = 431.98 NDCI^2 + 9.547 NDCI + 104$ ($R^2$ = 0.54). Based on the NDCI algorithms for Lake Malombe, predicted chl-a concentrations were estimated; the RMSE for the validation datasets was 2.88 $mg/m^3$. The dashed line represents the 1:1 line.
 
